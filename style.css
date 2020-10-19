@@ -29,3 +29,23 @@ i {
   margin-right: 40px;
   
 }
+
+#fcc:hover {
+  color: green;
+  
+}
+
+#ig:hover {
+  color: pink;
+  
+}
+
+#gh:hover {
+  color: white;;
+  
+}
+
+#cp:hover {
+  color: black;
+  
+}
