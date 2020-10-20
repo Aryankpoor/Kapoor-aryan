@@ -204,7 +204,72 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidebar").style.display = "none";
 }
+    
+    console.clear();
+
+let Form = Vue.component("app-form", {
+  template: `
+   <div class="container" v-if="show">
+    <div class="form-title">
+      <h3>Create an account</h3>
+      <div class="close" @click="toggleShow">
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+    </div>
+    <div class="form">
+      <div class="field name-input">
+        <label class="label" for="username">Username</label>
+        <input type="text" class="input username" name="username" value="Sasha">
+      </div>
+      <div class="field phone-input">
+        <label class="label" for="phone">Phone</label>
+        <input type="number" class="input phone" name="phone">
+      </div>
+      <div class="field birthday-input">
+        <label class="label" for="birthday">Birthday</label>
+        <input type="date" class="input birthday" name="birthday">
+      </div>
+    </div>
+    <div class="form-message">
+      <div class="message">
+        <i class="icon fa fa-info"></i>
+        <p>This is a random important message about creating an account on this website. </p>
+      </div>
+    </div>
+    <div class="form-controls">
+      <button class="btn cancel" @click="toggleShow">Cancel</button>
+      <button class="btn submit">Submit</button>
+    </div>
+  </div>
+  `,
+  data() {
+    return {
+      show: true
+    };
+  },
+  methods: {
+    toggleShow() {
+      this.show = !this.show;
+      setTimeout(() => {
+        this.show = !this.show;
+      }, 1000);
+    }
+  }
+});
+
+new Vue({
+  el: "#app",
+  components: {
+    Form
+  }
+});
+
 </script>
 
+    
+    <div id="app">
+  <app-form></app-form>
+</div>
 </body>
 </html>
