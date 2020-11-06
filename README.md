@@ -6,3 +6,5 @@
 [![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)<br>
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)<br>
 [![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)](https://forthebadge.com)
+
+All kinds of contributions welcome! 
