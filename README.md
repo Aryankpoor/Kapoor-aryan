@@ -1,10 +1,7 @@
 # Portfolio site
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)<br>
-[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)](https://forthebadge.com)<br>
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)<br>
-[![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)](https://forthebadge.com)
+
 
 All kinds of contributions welcome! 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a3695772-efda-42e9-9670-457d16158309/deploy-status)](https://app.netlify.com/sites/kapoor-aryan/deploys)
